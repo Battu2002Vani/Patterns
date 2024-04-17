@@ -14,7 +14,7 @@
 	<name>DogsMangamentSystem</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -63,9 +63,9 @@
 			 <plugin>
             			<groupId>org.apache.maven.plugins</groupId>
             			<artifactId>maven-compiler-plugin</artifactId>
-            			<version>3.11.0</version> <!-- or newer version that supports Java 17 -->
+            			<version>3.8.0</version> <!-- or newer version that supports Java 11 -->
             			<configuration>
-                		<release>17</release>
+                		<release>11</release>
             			</configuration>
         	</plugin>
 		</plugins>
